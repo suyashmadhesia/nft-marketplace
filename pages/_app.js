@@ -13,7 +13,6 @@ function MyApp({ Component, pageProps }) {
         <title>NFT Space</title>
       </Head>
       <Navbar />
-      {/* this code is replaced by main */}
       <div className="flex-1 bg-gray-200 w-full">
         <Component {...pageProps} />
       </div>
